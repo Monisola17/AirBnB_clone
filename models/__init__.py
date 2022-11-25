@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Import modules and packages """
+"""Create unique FileStroage instance"""
 from models.engine.file_storage import FileStorage
 
 storage = FileStorage()
