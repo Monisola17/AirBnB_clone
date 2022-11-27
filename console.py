@@ -137,7 +137,7 @@ class HBNBCommand(cmd.Cmd):
         """ Updates an instance based on the class name and id """
 
         if not arg:
-           print("** class name missing **")
+            print("** class name missing **")
             return
 
         a = ""
